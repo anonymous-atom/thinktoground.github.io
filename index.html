@@ -291,14 +291,19 @@ on our dataset, achieving 77% accuracy, comparable to closed-source models.
 
     <script>
         function copyCitation() {
-            const citation = `Author1, First, et al. "Your Innovative Paper Title Goes Here." International Conference on Learning Representations (ICLR). 2024.`;
+            const citation = `Karun Sharma, Vidushee Vats "Think to Ground: Improving Spatial Reasoning in LLM's for better Visual Grounding" International Conference on Learning Representations (ICLR). 2025.`;
             navigator.clipboard.writeText(citation).then(() => {
                 alert('Citation copied to clipboard!');
             });
         }
 
         function copyBibtex() {
-            const bibtex = `@inproceedings{\n  author = {Author1, First and Author2, Second and Author3, Third and Author4, Senior},\n  title = {Your Innovative Paper Title Goes Here},\n  booktitle = {International Conference on Learning Representations (ICLR)},\n  year = {2024}\n}`;
+            const bibtex = `@inproceedings{sharma2025think,
+ title = {Think to Ground: Improving Spatial Reasoning in LLM's for better Visual Grounding},
+ author = {Karun Sharma and Vidushee Vats},
+ booktitle = {Workshop on Reasoning and Planning for Large Language Models, ICLR},
+year = {2025},
+  url = {https://openreview.net/forum?id=T2IHuIib74}`;
             navigator.clipboard.writeText(bibtex).then(() => {
                 alert('BibTeX entry copied to clipboard!');
             });
